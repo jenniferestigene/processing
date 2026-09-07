@@ -1,4 +1,4 @@
-.DS_Store
+# Processing build/export artifacts
 applet
 application.linux-arm64
 application.linux-armv6hf
@@ -8,3 +8,14 @@ application.windows32
 application.windows64
 application.macosx
 out
+*.class
+
+# Editor
+.vscode/
+*.swp
+*~
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
